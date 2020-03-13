@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+.container {
+  display: flex;
+
+  align-items: center;
+
+  height: 100vh;
+  text-align: center;
+}
+
+#quote-box {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.main-box {
+  width: 100vw;
+
+  padding: 10px;
+}
+
+.buttons {
+  top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+#new-quote {
+  margin-right: 60px;
+}
+
+#author {
+  color: darkgoldenrod;
+  margin-top: 20px;
+}
+
+#text {
+  letter-spacing: 1px;
+  font-size: 30px;
+}
